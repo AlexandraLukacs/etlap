@@ -1,5 +1,5 @@
-def csillag(jel, db):
-    print(jel * db)
+def csillag(jel, meret):
+    print(jel * meret)
     
 def szoveg(jel, szoveg, jel1, meret):
     hossz: int = meret - (len(jel) + len(jel1))
@@ -8,3 +8,7 @@ def szoveg(jel, szoveg, jel1, meret):
 def etel_ar(etel, ar, meret):
     hossz: int = int (meret/2)
     print(f"{etel:<{hossz}}{ar:>{hossz-3}} Ft")
+
+
+
+
